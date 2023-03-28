@@ -1,0 +1,45 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  .home-box {
+    padding: 16px;
+    max-width: 500px;
+    .form-control-radio-group {
+      margin: 1.5em;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5em;
+      input {
+        width: initial;
+        margin-right: 0.5em;
+      }
+    }
+    .google-sign-in-btn {
+      display: flex;
+      justify-content: center;
+      &.hide {
+        display: none;
+      }
+    }
+    .hello {
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 400;
+      margin-bottom: 1em;
+    }
+    .btn-group {
+      display: flex;
+      background-color: transparent;
+      gap: 0.5em;
+      text-align: center;
+      .join {
+        width: 100%;
+      }
+      .sign-out {
+        white-space: nowrap;
+      }
+    }
+  }
+}

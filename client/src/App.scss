@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+input,
+.input,
+textarea,
+.textarea {
+  width: 100%;
+  padding: 0.3em 1em;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+button,
+.btn {
+  padding: 0.3em 1em;
+  color: inherit;
+  background-color: transparent;
+  font-size: inherit;
+  font-family: inherit;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  &:active {
+    outline: 1px solid black;
+  }
+}
+button:disabled,
+button[disabled] {
+  cursor: not-allowed;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+$lavender: #d872ff; //lavender
+$pink: #ff81cc; // pink
+$green: #5adb90; // green
+$gold: #fdc951; // gold
+:root {
+  --color-lavender: #d872ff; // lavender
+  --color-pink: #ff81cc; // pink
+  --color-green: #5adb90; // green
+  --color-gold: #fdc951; // gold
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  background-color: #eee;
+}
